@@ -15,7 +15,7 @@ void deinitList(List* pRoot)
 	free(pRoot);
 	pRoot = NULL;
 }
-//function adds a car
+
 void addCar(List* pRoot, char* plateNum)
 {
 
